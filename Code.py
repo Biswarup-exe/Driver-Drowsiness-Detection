@@ -69,7 +69,7 @@ while True:
                 print("Drowsy")
                 sample=0
                 tab=0
-                playsound('C:/Users/Biswarup Chaki/Desktop/drowsinessDetector-master/alarm.wav')
+                playsound('C:/Users/Biswarup Chaki/Desktop/alarm.wav')
                 #add a 10 sec delay 
                 #time.sleep(10)
             if tab<6:
