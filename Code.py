@@ -55,9 +55,8 @@ while True:
             
         EAR = (left_ear+right_ear)/2
         EAR = round(EAR,2)
-        if EAR<0.20 and sample<6:
-            state[sample]=EAR
-            sample=sample+1
+        state[sample]=EAR
+        sample=sample+1
         if sample == 6:
             for k in range(0,6):
                 if(state[k]<0.20):
